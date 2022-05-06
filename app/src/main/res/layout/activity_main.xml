@@ -13,10 +13,10 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/welcomescreenbg" />
 
     <ImageView
@@ -39,7 +39,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="@font/montserrat_alternates"
+        android:fontFamily="sans-serif-light"
         android:text="GO ALL IN"
         android:textColor="#FFFFFF"
         android:textSize="46sp"
@@ -52,13 +52,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_alternates"
+        android:fontFamily="sans-serif-light"
         android:text="ON GOING ALL OUT"
         android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="194dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView3"
@@ -67,7 +69,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="@font/montserrat_alternates"
+        android:fontFamily="sans-serif-light"
         android:singleLine="false"
         android:text="Find a team in your city and dominate the league."
         android:textAlignment="center"
@@ -83,7 +85,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/swoosh_button"
-        android:fontFamily="@font/montserrat_alternates"
+        android:fontFamily="sans-serif-light"
         android:text="GET STARTED"
         android:textColor="#FFFFFF"
         app:iconTint="@color/white"
