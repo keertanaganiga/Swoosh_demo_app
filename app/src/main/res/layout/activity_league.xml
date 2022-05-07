@@ -102,7 +102,6 @@
         android:background="@drawable/swoosh_button"
         android:fontFamily="sans-serif-light"
         android:text="NEXT"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
