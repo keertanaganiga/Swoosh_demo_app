@@ -1,9 +1,11 @@
-package com.keertana.swoosh
+package com.keertana.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.keertana.swoosh.EXTRA_LEAGUE
+import com.keertana.swoosh.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
@@ -38,7 +40,7 @@ class LeagueActivity : BaseActivity() {
 
     fun leagueNextClicked(view: View){
         if (selectedLeague!=""){
-            val skillActivity= Intent(this,SkillActivity::class.java)
+            val skillActivity= Intent(this, SkillActivity::class.java)
             skillActivity.putExtra(EXTRA_LEAGUE,selectedLeague)
             startActivity(skillActivity)
         } else {
