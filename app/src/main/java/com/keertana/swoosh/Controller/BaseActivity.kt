@@ -1,4 +1,4 @@
-package com.keertana.swoosh
+package com.keertana.swoosh.Controller
 
 import android.os.Bundle
 import android.util.Log
